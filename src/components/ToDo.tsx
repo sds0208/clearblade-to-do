@@ -34,8 +34,6 @@ class ToDo extends React.Component <any,any>{
     this.clbd.init({
       URI: "https://platform.clearblade.com/",
       callback: this.initCallback,
-      email: "sarahsantacruz86@gmail.com",
-      password: "s5531253",
       systemKey: "bcecbbaf0bba81c88be2b7dcfb4c",
       systemSecret: "BCECBBAF0B8EB8A3CCE3C49CA2DB01"
     });
